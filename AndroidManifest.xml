@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.ucai.SuperWeChat"
+    package="cn.ucai.superwechat"
     android:versionCode="25"
     android:versionName="2.2.5" >
 
@@ -142,7 +142,7 @@
         </activity>
         <!-- 地图 -->
         <activity
-            android:name="com.easemob.chatuidemo.activity.BaiduMapActivity"
+            android:name="cn.ucai.superwechat.activity.BaiduMapActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" >
         </activity>
@@ -318,7 +318,7 @@
         </service>
         
         <receiver 
-            android:name="com.easemob.chatuidemo.receiver.GCMPushBroadCast"
+            android:name="cn.ucai.superwechat.receiver.GCMPushBroadCast"
             android:exported="false">
             <intent-filter >
                 <action android:name="com.easemob.sdk.push"/>
