@@ -19,7 +19,6 @@ import java.util.Map;
 
 import org.json.JSONObject;
 
-import android.R.bool;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -33,10 +32,10 @@ import com.easemob.EMCallBack;
 import com.easemob.EMChatRoomChangeListener;
 import com.easemob.EMEventListener;
 import com.easemob.EMNotifierEvent;
-import com.easemob.applib.controller.HXSDKHelper;
-import com.easemob.applib.model.HXNotifier;
-import com.easemob.applib.model.HXNotifier.HXNotificationInfoProvider;
-import com.easemob.applib.model.HXSDKModel;
+import com.easemob.chatuidemo.applib.controller.HXSDKHelper;
+import com.easemob.chatuidemo.applib.model.HXNotifier;
+import com.easemob.chatuidemo.applib.model.HXNotifier.HXNotificationInfoProvider;
+import com.easemob.chatuidemo.applib.model.HXSDKModel;
 import com.easemob.chat.CmdMessageBody;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMChatOptions;

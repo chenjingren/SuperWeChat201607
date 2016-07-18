@@ -1,6 +1,6 @@
 package com.easemob.chatuidemo.receiver;
 
-import com.easemob.applib.controller.HXSDKHelper;
+import com.easemob.chatuidemo.applib.controller.HXSDKHelper;
 
 import android.app.Notification;
 import android.app.NotificationManager;

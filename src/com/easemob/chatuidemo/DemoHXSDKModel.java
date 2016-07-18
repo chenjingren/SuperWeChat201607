@@ -18,7 +18,7 @@ import java.util.Map;
 
 import android.content.Context;
 
-import com.easemob.applib.model.DefaultHXSDKModel;
+import com.easemob.chatuidemo.applib.model.DefaultHXSDKModel;
 import com.easemob.chatuidemo.db.DemoDBManager;
 import com.easemob.chatuidemo.db.UserDao;
 import com.easemob.chatuidemo.domain.RobotUser;

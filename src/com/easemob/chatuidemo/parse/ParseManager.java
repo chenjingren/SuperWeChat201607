@@ -7,9 +7,7 @@ import android.content.Context;
 import android.text.TextUtils;
 
 import com.easemob.EMValueCallBack;
-import com.easemob.applib.utils.HXPreferenceUtils;
 import com.easemob.chat.EMChatManager;
-import com.easemob.chatuidemo.Constant;
 import com.easemob.chatuidemo.domain.User;
 import com.easemob.chatuidemo.utils.UserUtils;
 import com.easemob.util.EMLog;

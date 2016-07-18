@@ -1,4 +1,4 @@
-package com.easemob.applib.model;
+package com.easemob.chatuidemo.applib.model;
 
 import com.easemob.EMGroupChangeListener;
 

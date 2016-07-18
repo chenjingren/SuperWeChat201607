@@ -11,27 +11,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.easemob.applib.controller;
+package com.easemob.chatuidemo.applib.controller;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import android.R.bool;
 import android.app.ActivityManager;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.easemob.EMCallBack;
 import com.easemob.EMConnectionListener;
 import com.easemob.EMError;
 import com.easemob.EMValueCallBack;
-import com.easemob.applib.model.DefaultHXSDKModel;
-import com.easemob.applib.model.HXNotifier;
-import com.easemob.applib.model.HXNotifier.HXNotificationInfoProvider;
-import com.easemob.applib.model.HXSDKModel;
+import com.easemob.chatuidemo.applib.model.DefaultHXSDKModel;
+import com.easemob.chatuidemo.applib.model.HXNotifier;
+import com.easemob.chatuidemo.applib.model.HXNotifier.HXNotificationInfoProvider;
+import com.easemob.chatuidemo.applib.model.HXSDKModel;
 import com.easemob.chat.EMChat;
 import com.easemob.chat.EMChatConfig.EMEnvMode;
 import com.easemob.chat.EMChatManager;

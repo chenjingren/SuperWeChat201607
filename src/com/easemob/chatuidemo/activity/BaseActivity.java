@@ -18,8 +18,7 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
 
-import com.easemob.applib.controller.HXSDKHelper;
-import com.easemob.applib.model.HXNotifier;
+import com.easemob.chatuidemo.applib.controller.HXSDKHelper;
 import com.umeng.analytics.MobclickAgent;
 
 public class BaseActivity extends FragmentActivity {

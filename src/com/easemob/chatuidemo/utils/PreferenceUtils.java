@@ -13,10 +13,9 @@
  */
 package com.easemob.chatuidemo.utils;
 
-import com.easemob.applib.utils.HXPreferenceUtils;
+import com.easemob.chatuidemo.applib.utils.HXPreferenceUtils;
 
 import android.content.Context;
-import android.content.SharedPreferences;
 
 /**
  * 
